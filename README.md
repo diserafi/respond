@@ -11,14 +11,13 @@ Marco Viola, University of Campania "Luigi Vanvitelli", Caserta, Italy, marco.vi
 Version 1.1 - July 18, 2021
 
 ## Description
-ResPoND (Restoration of Poisson-Noisy Directional images) is a package 
-containing MATLAB implementations of the algorithms described in [1] for
-the deblurring of directional images corrupted by Poisson noise.
+ResPoND (Restoration of Poisson-Noisy Directional images) is a MATLAB 
+package for deblurring directional images corrupted by Poisson noise.
 
-The main function in the package, named 'respond', performs the restoration
-by minimizing the KL-DTGV_2 model introduced in [1]. Given the noisy and
-blurry observed image 'b', the linear bluring operator 'A', the background
-noise 'gamma', and the regularization parameter 'lambda', the function
+The main function in the package, named `respond`, performs the restoration
+by minimizing the KL-DTGV_2 model presented in [1]. Given the noisy and
+blurry observed image `b`, the linear bluring operator `A`, the background
+noise `gamma`, and the regularization parameter `lambda`, the function
 finds an approximate solution to the nonsmooth constrained minimization
 problem
 
@@ -26,19 +25,19 @@ problem
               s.t. x >= 0,
 
 where KL is the so-called Kullback-Leibler divergence of the blurred image
-(A*u + gamma) from the observed image b and DTGV_2 is the discrete
+`A*u + gamma` from the observed image `b` and DTGV_2 is the discrete
 second-order Total Generalized Variation regularization term. The
 minimization problem is solved by a specialized version of a two-block
 Alternating Direction Method of Multipliers (ADMM) (see Algorithm 2 in [1]).
 
-The 'respond' function is also suited for the deblurring of general
+The `respond` function is also suited for the deblurring of general
 Poissonian images by the minimization of the KL-TGV_2 model (see the
 function documentation for further details).
 
 ### References
 [1] D. di Serafino, G. Landi and M. Viola,
-*TGV-Based Image Restoration under Poisson Noise*,
-Journal of Imaging, volume 7(6), 2021, p. 99, DOI: 10.3390/jimaging7060099
+*Directional TGV-Based Image Restoration under Poisson Noise*,
+Journal of IDirectional maging, volume 7(6), 2021, p. 99, DOI: 10.3390/jimaging7060099
 (open access).
 
 ## Software requirements
