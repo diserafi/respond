@@ -37,8 +37,8 @@ function [u,iter,output] = respond(A,b,gamma,lambda,alpha0,alpha1,theta,a,u0,rho
 % Directional images) package. Given the noisy and blurry observed image
 % 'b', the linear bluring operator 'A', the background noise 'gamma', and
 % the regularization parameter 'lambda', this function restores 'b' by
-% minimizing the KL-DTGV2 model described in [1], i.e., it solves the
-% nonsmooth constrained optimization problem 
+% minimizing the KL-DTGV2 model described in [1], i.e., 'respond' solves
+% the nonsmooth constrained optimization problem
 % 
 %  (P)             min  lambda * KL(A*u + gamma, b) + DTGV_2(u)
 %                  s.t. x >= 0.

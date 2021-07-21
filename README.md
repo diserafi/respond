@@ -37,7 +37,7 @@ function documentation for further details).
 ### References
 [1] D. di Serafino, G. Landi and M. Viola,
 *Directional TGV-Based Image Restoration under Poisson Noise*,
-Journal of IDirectional maging, volume 7(6), 2021, p. 99, DOI: 10.3390/jimaging7060099
+Journal of Imaging, volume 7(6), 2021, p. 99, DOI: 10.3390/jimaging7060099
 (open access).
 
 ## Software requirements
