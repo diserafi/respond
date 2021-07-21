@@ -44,7 +44,7 @@ Journal of Imaging, volume 7(6), 2021, p. 99, DOI: 10.3390/jimaging7060099
 ResPoND runs under MATLAB. It has been tested under MATLAB R2020a.
 
 ## Contents of the package
-Here is the list of ResPoND files in alphabetical order:
+Here is the list of ResPoND files:
 
 - `respond.m`       : main function;
 - `dir_est_hough.m` : function estimating the main direction of
