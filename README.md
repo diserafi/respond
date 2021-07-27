@@ -3,9 +3,9 @@
 ## A MATLAB package for the restoration of directional images corrupted by Poisson noise.
 
 ## Authors
-Daniela di Serafino, University of Naples Federico II, Napoli, Italy, daniela.diserafino[at]unina.it
-Germana Landi, University of Bologna, Bologna, Italy, germana.landi[at]unibo.it
-Marco Viola, University of Campania "Luigi Vanvitelli", Caserta, Italy, marco.viola[at]unicampania.it
+Daniela di Serafino, University of Naples Federico II, Napoli, Italy, daniela.diserafino[at]unina.it   
+Germana Landi, University of Bologna, Bologna, Italy, germana.landi[at]unibo.it   
+Marco Viola, University of Campania "Luigi Vanvitelli", Caserta, Italy, marco.viola[at]unicampania.it   
 
 ## Last Update
 Version 1.1 - July 18, 2021
